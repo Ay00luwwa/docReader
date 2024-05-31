@@ -21,5 +21,5 @@ from docReaderApp import urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', include(docReaderApp.urls)),
+    path('', include('docReaderApp.urls')),
 ]
