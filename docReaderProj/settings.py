@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-it&5hwc%rp3@(6o2vz%2mzum8gz2b$8r=ee*7a$p$mmlk=)*z_"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['Ayooluwa.pythonanywhere.com', 'www.Ayooluwa.pythonanywhere.com', '127.0.0.1', 'localhost']
 
@@ -132,4 +132,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'bloga.blog2.1@gmail.com'
-EMAIL_HOST_PASSWORD = 'dcza itnq utby etgy'
+EMAIL_HOST_PASSWORD = 'srwy jqxt lwfz oplj'
+

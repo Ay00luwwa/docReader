@@ -34,7 +34,7 @@ def generate_summary(file_path): #summary generation
     return summary
 
 def send_summary_email(summary):
-    subject = 'Python Assignment - Your Name'
+    subject = 'Python Assignment - Ijidakinro Ayooluwa'
     body = summary.to_string(index=False)
     send_mail(subject, body, 'bloga.blog2.1@gmail.com', ['tech@themedius.ai', 'hr@themedius.ai', 'ijidakinroayooluwa@gmail.com'])
             
